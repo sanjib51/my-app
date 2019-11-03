@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+body{
+    margin: 0;
+    font-family: 'Nunito','sans-sarif';
+    font-size: 18px;
+}
+.container {
+        widows: 80%;
+        margin: 0 auto;
+    }
+
+header{
+    background: rgb(111, 0, 225);
+    padding: 1.5em 0;
+
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+nav {
+    float: right;    
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+}
+ul li a{
+    padding: 1em;
+}
+a .logo {
+    color: white;
+    font-weight: bold;
+    font-family: 'Lobster','sans-sarif';
+}
+span{
+    background: gray;
+    font-weight: bold;
+    padding: .3em .8em;    
+}
+.play-container{
+    padding: 3em;
+    border: 1px solid  #000000;
+    margin-bottom: 1em;
+}
