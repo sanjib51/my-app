@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "ahan51",
+    "public": "dist/angapp",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
