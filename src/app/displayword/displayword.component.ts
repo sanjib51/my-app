@@ -8,13 +8,13 @@ import {HttpService} from '../http.service'
   styleUrls: ['./displayword.component.css']
 })
 export class DisplaywordComponent implements OnInit {
-brews:object;
+words:object;
   constructor(private _http:HttpService) { }
 
   ngOnInit() {
-    this._http.getBeer().subscribe(data=>{
-      this.brews=data;
-      console.log(this.brews);
+    this._http.getWord().subscribe(data=>{
+      this.words=data;
+      console.log(this.words);
     })
   }
 

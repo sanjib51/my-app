@@ -46,3 +46,14 @@ span{
     border: 1px solid  #000000;
     margin-bottom: 1em;
 }
+table{
+    border: 1px solid #000000;
+}
+table thead{
+    background-color: rgb(136, 136, 160);
+}
+table tr td{
+    border: 1px solid #000000;
+    margin: 2em;
+    padding: .5em;
+}

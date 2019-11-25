@@ -1,13 +1,21 @@
 <h2>displayword works!</h2>
 
-<ul *ngIf="brews">
-    <li *ngFor="let brew of brews">
+<table>
+    <thead>
+        <tr> 
+            <td>simple_present</td><td> simple_past</td><td> past_participle</td>
+        </tr>
+    </thead>
+
+<tbody *ngIf="words">
+    <tr *ngFor="let word of words">
              <!--  <p> {{brew.name}}</p>
             <p> {{brew.city}}</p> -->
-     <p> {{brew.simple_present}}</p>
-        <p> {{brew.simple_past}}</p>
-        <p> {{brew.past_participle}}</p>
+     <td> {{word.simple_present}}</td>
+        <td> {{word.simple_past}}</td>
+        <td> {{word.past_participle}}</td>
       
-    </li> 
-</ul>
+             </tr> 
+</tbody>
+</table>
 
